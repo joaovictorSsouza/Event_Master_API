@@ -59,3 +59,9 @@ python manage.py runserver
 ```
 
 ### 6. Documentação da API (EndPoints)
+
+<img width="828" height="350" alt="Documentação da api" src="https://github.com/user-attachments/assets/2e56b43d-9c3e-4ffe-a01a-c41693938bed" />
+
+Desenvolvido por: João Victor Azevedo de Souza - Linkedin: www.linkedin.com/in/joão-victor-azevedo-de-souza-000a9834b
+
+### 6. Documentação da API (EndPoints)
