@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'events',
 
     'rest_framework',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -118,5 +119,15 @@ STATIC_URL = 'static/'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
+    ),
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Event Master API',
+    'DESCRIPTION': 'API para gerenciamento de eventos com autenticação JWT.',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    # Isso aqui faz o botão "Authorize" aparecer para o JWT
+    'COMPONENT_SPLIT_PATCH': True,
 }
