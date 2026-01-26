@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: minha-api-eventos
+    env: python
+    buildCommand: "pip install -r requirements.txt && python manage.py migrate"
+    # LEMBRE-SE: Troque 'seu_projeto' pelo nome da pasta do seu wsgi.py
+    startCommand: "gunicorn PROJETOAPI.wsgi:application"
+    envVars:
+      - key: DATABASE_URL
+        sync: false # Isso diz ao Render que você vai colar o link manualmente
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
