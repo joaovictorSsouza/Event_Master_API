@@ -16,7 +16,7 @@ Uma API RESTful profissional para gerenciamento de eventos, desenvolvida com **D
 - **Django 5.x**
 - **Django REST Framework**
 - **Simple JWT** (Autenticação)
-- **SQLite** (Banco de dados de desenvolvimento)
+- **PostgreSQL / Neon.tech** (Banco de dados de produção)
 
 ---
 
@@ -60,8 +60,8 @@ python manage.py runserver
 
 ### 6. Documentação da API (EndPoints)
 
-<img width="828" height="350" alt="Documentação da api" src="https://github.com/user-attachments/assets/2e56b43d-9c3e-4ffe-a01a-c41693938bed" />
+O projeto utiliza Swagger/OpenAPI para documentação. Com o servidor rodando, acesse /api/docs/ para testar os endpoints interativamente.
 
-Desenvolvido por: João Victor Azevedo de Souza - Linkedin: www.linkedin.com/in/joão-victor-azevedo-de-souza-000a9834b
+<p align="center"> <img src="https://github.com/user-attachments/assets/2e56b43d-9c3e-4ffe-a01a-c41693938bed" alt="Documentação da API" width="800"> </p>
 
-### 6. Documentação da API (EndPoints)
+Desenvolvido por: João Victor Azevedo de Souza - Linkedin: [www.linkedin.com/in/joão-victor-azevedo-de-souza-000a9834b](https://www.linkedin.com/in/joão-victor-azevedo-de-souza-000a9834b/)
