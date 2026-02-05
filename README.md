@@ -62,6 +62,10 @@ python manage.py runserver
 
 O projeto utiliza Swagger/OpenAPI para documentação. Com o servidor rodando, acesse /api/docs/ para testar os endpoints interativamente.
 
+<img width="1861" height="663" alt="api-master" src="https://github.com/user-attachments/assets/bc5aa7e2-5419-47a3-b838-6e64eee93c72" />
+
 <p align="center"> <img src="https://github.com/user-attachments/assets/2e56b43d-9c3e-4ffe-a01a-c41693938bed" alt="Documentação da API" width="800"> </p>
+
+
 
 Desenvolvido por: João Victor Azevedo de Souza - Linkedin: [www.linkedin.com/in/joão-victor-azevedo-de-souza-000a9834b](https://www.linkedin.com/in/joão-victor-azevedo-de-souza-000a9834b/)
